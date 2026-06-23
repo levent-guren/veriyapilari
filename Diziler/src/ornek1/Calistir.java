@@ -1,6 +1,8 @@
 package ornek1;
 
+@SuppressWarnings("unused")
 public class Calistir {
+
 	public static void main(String[] args) {
 		int[] x = new int[4];
 		x[0] = 2;
@@ -15,6 +17,7 @@ public class Calistir {
 		if ("Ali" == "Ali") {
 			System.out.println("Eşittir");
 		} else {
+
 			System.out.println("Eşit değildir");
 		}
 		System.out.println("-------------");
